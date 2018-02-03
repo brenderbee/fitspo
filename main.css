@@ -1,0 +1,66 @@
+html, body, h1, h2, p, li, ol, a, ul, nav, section {
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: url("images/sunset-kayak.jpeg") no-repeat center;
+  background-size: cover;
+  min-height: 100%;
+}
+header {
+  max-width: 960px;
+  background-color: #292929;
+}
+h1 {
+  color: white;
+  background-color: #292929;
+  float: left;
+  font-size: 40px;
+  padding-left: 12px;
+}
+footer {
+  background-color: #292929;
+}
+footer p {
+  color: white;
+  margin: 0;
+}
+.button {
+  background-color: #e91e63;
+  border-radius: 20%;
+}
+.intro-box {
+  background-color: white;
+  border-radius: 6px;
+  margin: 64px auto;
+  opacity: 0.6;
+  max-width: 160px;
+  box-shadow: 1px 1px 5px black;
+}
+.intro-box p {
+  padding: 10px;
+}
+
+.page-nav {
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.page-nav li {
+  display: inline;
+  font-size: 16px;
+  padding: 12px;
+}
+.page-nav li a {
+  color: white;
+}
+.page-nav a:hover {
+  color: #e91e63;
+}
+
+a:hover {
+  color: #e91e63;
+}
