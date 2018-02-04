@@ -60,7 +60,8 @@ footer p {
   background-color: #e91e63;
   border-radius: 0;
   color: white;
-  padding: 6px 32px;;
+  padding: 6px 32px;
+  transition: all 0.1s ease-in-out;
 }
 
 .page-nav {
@@ -81,7 +82,16 @@ footer p {
 }
 .post-preview {
   color: white;
+  max-width: 240px;
+  margin: auto;
 }
-a:hover {
-  color: cyan;
+.post-preview li{
+  display: inline;
+}
+.post-preview p {
+  margin-bottom: 24px;
+}
+.button:hover {
+  background-color: cyan;
+  color: #e91e63;
 }
